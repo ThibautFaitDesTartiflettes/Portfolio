@@ -1,3 +1,19 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.15rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #D52222;
+}
+
 header{
     position: absolute;
     z-index: 10;
@@ -24,6 +40,7 @@ header{
 .navbar-light .navbar-nav .nav-item.active .nav-link{
     background: #D52222;
     color: #fff;
+    transition: all 0.3s ease-in;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link{
@@ -33,7 +50,7 @@ header{
 
 .banner{
     position: relative;
-    background: url(../img/bg2.jpg);
+    background: url(../img/bg.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -81,9 +98,14 @@ header{
     outline: none;
 }
 
+.typed-cursor{
+    color: #fff;
+    font-size: 2.8rem;
+}
+
 @media (max-width: 992px){
     .navbar-collapse{
-        background: #fff;
+        background: #7f7f7f;
     }
 }
 
