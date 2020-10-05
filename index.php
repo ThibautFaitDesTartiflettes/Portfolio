@@ -7,13 +7,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="includes/css/style.css">
+    <script src="https://kit.fontawesome.com/be8b49b8eb.js"></script>
     <title>Portfolio - Thibaut Meslin</title>
 </head>
 <body>
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="includes/img/campfire2.gif" width="60" height="60"></a>
+            <a class="navbar-brand" href="#"><img src="includes/img/campfire.gif" width="60" height="60"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,28 +25,28 @@
                 <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Profil</a>
+                <a class="nav-link" href="#profil">Profil</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">PPE</a>
+                <a class="nav-link" href="#PPE">PPE</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Stage</a>
+                <a class="nav-link" href="#stages">Stage</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Développement</a>
+                <a class="nav-link" href="#dev">Développement</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">CyberEdu</a>
+                <a class="nav-link" href="#cyberEdu">CyberEdu</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Veilles</a>
+                <a class="nav-link" href="#veilles">Veilles</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">CV</a>
+                <a class="nav-link" href="#CV">CV</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </div>
         </nav>
@@ -62,10 +63,30 @@
         </div>
     </div>
 </section>
-<section>
+<section id="profil" data-text="Section 1">
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
 </section>
-
+<section id="PPE" data-text="Section 2">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="stages" data-text="Section 3">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="dev" data-text="Section 4">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="cyberEdu" data-text="Section 5">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="veilles" data-text="Section 6">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="CV" data-text="Section 7">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
+<section id="contact" data-text="Section 8">
+    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+</section>
     <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
