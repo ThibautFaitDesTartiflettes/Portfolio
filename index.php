@@ -64,7 +64,25 @@
     </div>
 </section>
 <section id="profil" data-text="Section 1">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2 class="text-center">Qui suis-je ?</h2>
+                <p>Je m'appelle Thibaut Meslin, je suis étudiant au BTS SIO du lycée Saint Adjutor à Vernon (actuellement en première année), j'ai 18 ans. Je sors d'un bac S option SI et spécialité ISN au lycée Georges Dumézil à Vernon, baccalauréat obtenu avec mention assez bien. J'habite actuelement près de Vernon (27120) dans l'Eure en Normandie.
+
+Je souhaite poursuivre ma carrière dans le développement et donc poursuivre mes études dans ce BTS en option SLAM (orienté programmation) à la fin du premier semestre en première année. J'aimerai après mon BTS poursuivre mes études en école d'ingénieur dans le but de devenir ingénieur en informatique ou ingénieur chef de projet.
+
+Je possède déjà de solides compétences en informatique, orienté développement, ainsi que de très bonnes compétences en langues. Je parle couramment l'anglais et possède des compétences en espagnol. J'aimerai m'orienter dans le développement d'application sur tout types de support ou bien dans le développement de jeux-vidéos. Je suis patient et sais m'adapter à la situation et aux personnes qui sont en lien avec cette situation.
+
+Je pratique dans ma vie personnelle de nombreux sports colletifs et individuels. Je pratique le tennis en simple et en double, en cours ainsi qu'en compétition, je pratique également le basketball et la musculation. Tout celà dans le but de garder la forme et la santé.</p>
+            </div>
+            <div class="col-sm-5">
+                <div class="img-wrap">
+                    <img src="includes/img/pp_profil2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="PPE" data-text="Section 2">
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
