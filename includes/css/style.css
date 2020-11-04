@@ -28,6 +28,10 @@ section:nth-child(odd) {
     background: #7f7f7f;
 }
 
+.background{
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1));
+}
+
 .navbar{
     padding: 20px 0;
 }
@@ -111,8 +115,14 @@ section:nth-child(odd) {
     font-size: 2.8rem;
 }
 
-#profil h2{
-    margin-bottom: 25px;
+#profil h1{
+    margin-bottom: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#profil p, #profil h1{
+    color: #fff;
 }
 
 .img-wrap{
@@ -121,9 +131,11 @@ section:nth-child(odd) {
 
 .img-wrap img{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
+    margin-left: -25px;
+    margin-top: 15px;
     border-radius: 50%;
-    box-shadow: 0 0 10px #999999;
+    box-shadow: 10px 10px 0px #f9640096;
 }
 
 @media (max-width: 992px){

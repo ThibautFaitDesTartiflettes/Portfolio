@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="includes/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/be8b49b8eb.js"></script>
     <title>Portfolio - Thibaut Meslin</title>
 </head>
@@ -57,26 +58,26 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2 id="typed"></h2>
-                <p>Une tasse de café ? Un petit gâteau ? Alors vous êtes prêt pour la visite, choisissez donc une option dans le menu ci-dessus, sur le bouton en dessous ou scrollez ! <br><strong>Bonne visite !</strong></p>
+                <p>Une tasse de café &#9749; ? Un petit gâteau 🍰 ? Alors vous êtes prêt pour la visite, choisissez donc une option dans le menu ci-dessus, sur le bouton en dessous ou scrollez ! <br><strong>Bonne visite !</strong></p>
                 <a href="#" class="btnD1">M'emmener quelque part</a>
             </div>
         </div>
     </div>
 </section>
 <section id="profil" data-text="Section 1">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7">
-                <h2 class="text-center">Qui suis-je ?</h2>
-                <p>Je m'appelle Thibaut Meslin, je suis étudiant au BTS SIO du lycée Saint Adjutor à Vernon (actuellement en première année), j'ai 18 ans. Je sors d'un bac S option SI et spécialité ISN au lycée Georges Dumézil à Vernon, baccalauréat obtenu avec mention assez bien. J'habite actuelement près de Vernon (27120) dans l'Eure en Normandie.
+    <div class="container-fluid d-flex h-100 background">
+        <div class="row align-self-center">
+            <div class="col-sm-8">
+                <h1 class="text-center">Qui suis-je ?</h1>
+                <p class="mx-5 text-justify">Je m'appelle Thibaut Meslin, je suis étudiant au BTS SIO du lycée Saint Adjutor à Vernon (actuellement en seconde année), j'ai 19 ans. Je sors d'un bac S option SI et spécialité ISN au lycée Georges Dumézil à Vernon, baccalauréat obtenu avec mention assez bien. J'habite actuelement près de Vernon (27120) dans l'Eure en Normandie.</p>
 
-Je souhaite poursuivre ma carrière dans le développement et donc poursuivre mes études dans ce BTS en option SLAM (orienté programmation) à la fin du premier semestre en première année. J'aimerai après mon BTS poursuivre mes études en école d'ingénieur dans le but de devenir ingénieur en informatique ou ingénieur chef de projet.
+                <p class="mx-5 text-justify">Je souhaite poursuivre ma carrière dans le développement et donc poursuivre mes études dans ce BTS en option SLAM (orienté programmation) à la fin du premier semestre en première année. J'aimerai après mon BTS poursuivre mes études en école d'ingénieur dans le but de devenir ingénieur en informatique ou ingénieur chef de projet.</p>
 
-Je possède déjà de solides compétences en informatique, orienté développement, ainsi que de très bonnes compétences en langues. Je parle couramment l'anglais et possède des compétences en espagnol. J'aimerai m'orienter dans le développement d'application sur tout types de support ou bien dans le développement de jeux-vidéos. Je suis patient et sais m'adapter à la situation et aux personnes qui sont en lien avec cette situation.
+                <p class="mx-5 text-justify">Je possède déjà de solides compétences en informatique, orienté développement, ainsi que de très bonnes compétences en langues. Je parle couramment l'anglais et possède des compétences en espagnol. J'aimerai m'orienter dans le développement d'application sur tout types de support ou bien dans le développement de jeux-vidéos. Je suis patient et sais m'adapter à la situation et aux personnes qui sont en lien avec cette situation.</p>
 
-Je pratique dans ma vie personnelle de nombreux sports colletifs et individuels. Je pratique le tennis en simple et en double, en cours ainsi qu'en compétition, je pratique également le basketball et la musculation. Tout celà dans le but de garder la forme et la santé.</p>
+                <p class="mx-5 text-justify">Je pratique dans ma vie personnelle de nombreux sports colletifs et individuels. Je pratique le tennis en simple et en double, en cours ainsi qu'en compétition, je pratique également le basketball et la musculation. Tout celà dans le but de garder la forme et la santé.</p>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-4">
                 <div class="img-wrap">
                     <img src="includes/img/pp_profil2.jpg">
                 </div>
