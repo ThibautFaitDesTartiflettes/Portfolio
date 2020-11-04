@@ -29,7 +29,7 @@ section:nth-child(odd) {
 }
 
 .background{
-    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
 }
 
 .navbar{
@@ -116,7 +116,7 @@ section:nth-child(odd) {
 }
 
 #profil h1{
-    margin-bottom: 50px;
+    margin: 25px 0;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
 }
@@ -131,9 +131,8 @@ section:nth-child(odd) {
 
 .img-wrap img{
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     margin-left: -25px;
-    margin-top: 15px;
     border-radius: 50%;
     box-shadow: 10px 10px 0px #f9640096;
 }
@@ -145,12 +144,26 @@ section:nth-child(odd) {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
+    section{
+        min-height: 100vh;
+    }
+
     .banner{
         padding: 200px 0;
     }
 
     .banner h2{
         font-size: 1.8rem;
+    }
+
+    .pres{
+        font-size: 10px;
+    }
+
+    .img-wrap img{
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 25px;
     }
 }

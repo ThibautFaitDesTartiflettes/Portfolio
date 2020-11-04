@@ -67,18 +67,16 @@
 <section id="profil" data-text="Section 1">
     <div class="container-fluid d-flex h-100 background">
         <div class="row align-self-center">
-            <div class="col-sm-8">
+            <div class="col-sm-8 pres">
                 <h1 class="text-center">Qui suis-je ?</h1>
-                <p class="mx-5 text-justify">Je m'appelle Thibaut Meslin, je suis étudiant au BTS SIO du lycée Saint Adjutor à Vernon (actuellement en seconde année), j'ai 19 ans. Je sors d'un bac S option SI et spécialité ISN au lycée Georges Dumézil à Vernon, baccalauréat obtenu avec mention assez bien. J'habite actuelement près de Vernon (27120) dans l'Eure en Normandie.</p>
-
-                <p class="mx-5 text-justify">Je souhaite poursuivre ma carrière dans le développement et donc poursuivre mes études dans ce BTS en option SLAM (orienté programmation) à la fin du premier semestre en première année. J'aimerai après mon BTS poursuivre mes études en école d'ingénieur dans le but de devenir ingénieur en informatique ou ingénieur chef de projet.</p>
-
-                <p class="mx-5 text-justify">Je possède déjà de solides compétences en informatique, orienté développement, ainsi que de très bonnes compétences en langues. Je parle couramment l'anglais et possède des compétences en espagnol. J'aimerai m'orienter dans le développement d'application sur tout types de support ou bien dans le développement de jeux-vidéos. Je suis patient et sais m'adapter à la situation et aux personnes qui sont en lien avec cette situation.</p>
-
-                <p class="mx-5 text-justify">Je pratique dans ma vie personnelle de nombreux sports colletifs et individuels. Je pratique le tennis en simple et en double, en cours ainsi qu'en compétition, je pratique également le basketball et la musculation. Tout celà dans le but de garder la forme et la santé.</p>
+                <p class="mx-5 text-justify">Moi c'est Thibaut Meslin ! J'ai 19 ans et je suis étudiant en 2ème année du BTS SIO du lycée saint Adjutor à Vernon.</p>
+                <p class="mx-5 text-justify">Je suis en option SLAM soit développement, j'étudie donc la programmation.J'ai un baccalauréat scientifique option Sciences de l'ingénieur et spécialité Informatique et Sciences du Numérique, obtenu avec mention assez bien. Je possède de solides compétences en informatique en général et surtout en développement dans divers langages couplé avec d'aussi solides compétences en langue.</p>
+                <p class="mx-5 text-justify">Je connais et ai une bonne maîtrise des langages C#, Python, Php et SQL et les utilise couramment dans divers projets. J'ai déjà développé de multiples applications utilisant ces langages et quelques petits jeux. Quant aux langues, je parle couramment l'anglais et l'espagnol.</p>
+                <p class="mx-5 text-justify">Je souhaiterais poursuivre mes études en école d'ingénieurs afin de devenir développeur de jeux vidéo ou bien m'orienter dans la direction du projet.</p>
+                <p class="mx-5 text-justify">Je suis également entraîneur de tennis dans mon club et m'occupe d'enseigner et de gérer des groupes des 6 à 8 élèves auxquels j'apprends ce sport. Je pratique également le basket-ball et la musculation ce qui m'a permis de savoir travailler en équipe et garder son sang-froid.</p>
             </div>
-            <div class="col-sm-4">
-                <div class="img-wrap">
+            <div class="col-sm-4 align-self-center">
+                <div class="img-wrap text-center">
                     <img src="includes/img/pp_profil2.jpg">
                 </div>
             </div>
