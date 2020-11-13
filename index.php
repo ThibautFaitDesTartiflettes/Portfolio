@@ -102,7 +102,36 @@
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
 </section>
 <section id="contact" data-text="Section 8">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="contactUs align-self-center">
+        <h1 class="title">Contactez moi !</h1>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input type="text" id="name" class="input-text" name="">
+                    <label for="name" class="label">Qui êtes-vous ?</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="email" id="email" class="input-text" name="">
+                    <label for="email" class="label">Adresse mail ?</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="company" class="input-text" name="">
+                    <label for="company" class="label">Société ?</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="phone" class="input-text" name="">
+                    <label for="phone" class="label">Téléphone ?</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <textarea id="message" class="input-text" name=""></textarea>
+                    <label for="message" class="label">Que voulez-vous me dire ?</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="submit" value="Envoyer" class="submit-btn" name="">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
     <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>

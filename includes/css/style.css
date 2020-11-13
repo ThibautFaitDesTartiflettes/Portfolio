@@ -137,10 +137,102 @@ section:nth-child(odd) {
     box-shadow: 10px 10px 0px #f9640096;
 }
 
+#contact{
+    height: 100vh;
+    display: flex;
+    background: url(../img/bg_contact.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.contactUs{
+    margin: auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    background-color: #2C2C2E;
+}
+
+.contactUs .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-style: 3em;
+    line-height: 78px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #0F0E0E, #f4524d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .form-field textarea{
+    height: 180px;
+    background-color: #2C2C2E;
+    color: #fff;
+}
+
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #901111;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: #2C2C2E;
+    color: #fff;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + label{
+    transform: translateX(24px);
+}
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    top: -25px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #901111;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, rgba(0, 0, 0, 1), rgb(104, 0, 0));
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
 @media (max-width: 992px){
     .navbar-collapse{
         background: #131212;
         opacity: 0.9;
+    }
+
+    .contactUs{
+        max-width: 800px;
+        height: 100vh;
     }
 }
 
