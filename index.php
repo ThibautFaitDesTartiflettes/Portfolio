@@ -102,35 +102,81 @@
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
 </section>
 <section id="contact" data-text="Section 8">
+    <?php
+        if(isset($_POST['MailForm'])){
+            if (!empty($_POST['personne']) AND !empty($_POST['mail']) AND !empty($_POST['telephone']) AND !empty($_POST['message']))
+            {
+                $header="MIME-Version: 1.0\r\n";
+                $header.='From:"thibaut.meslin.bts@free.fr"<support@thibautmeslinbts.fr>'."\n";
+                $header.='Content-Type:text/html; charset="uft-8"'."\n";
+                $header.='Content-Transfer-Encoding: 8bit';
+        
+                $message='
+                <html>
+                    <body>
+                        <div align="center">
+                            <img src="../img/banniere_mail.gif"/>
+                            <br />
+                            <u>Nom de l\'expéditeur :</u>'.$_POST['personne'].'<br />
+                            Mail de l\'expéditeur :'.$_POST['mail'].'<br />
+                            Société de l\'expéditeur :'.$_POST['societe'].'<br />
+                            Téléphone de l\'expéditeur :'.$_POST['telephone'].'<br />
+                            <br />
+                            '.nl2br($_POST['message']).'
+                            <br />
+                        </div>
+                    </body>
+                </html>
+                ';
+        
+                mail("thibaut.meslin@gmail.com", "CONTACT - Portoflio", $message, $header);
+                $ok = "Votre message a bien été envoyé";
+            }
+            else{
+                $msg = "Les champs avec * sont obligatoires";
+            }
+        }
+    ?>
     <div class="contactUs align-self-center">
         <h1 class="title">Contactez moi !</h1>
-        <div class="container">
-            <div class="contact-form row">
-                <div class="form-field col-lg-6">
-                    <input type="text" id="name" class="input-text" name="">
-                    <label for="name" class="label">Qui êtes-vous ?</label>
-                </div>
-                <div class="form-field col-lg-6">
-                    <input type="email" id="email" class="input-text" name="">
-                    <label for="email" class="label">Adresse mail ?</label>
-                </div>
-                <div class="form-field col-lg-6">
-                    <input type="text" id="company" class="input-text" name="">
-                    <label for="company" class="label">Société ?</label>
-                </div>
-                <div class="form-field col-lg-6">
-                    <input type="text" id="phone" class="input-text" name="">
-                    <label for="phone" class="label">Téléphone ?</label>
-                </div>
-                <div class="form-field col-lg-12">
-                    <textarea id="message" class="input-text" name=""></textarea>
-                    <label for="message" class="label">Que voulez-vous me dire ?</label>
-                </div>
-                <div class="form-field col-lg-12">
-                    <input type="submit" value="Envoyer" class="submit-btn" name="">
+        <form method="POST" action="">
+            <div class="container">
+                <div class="contact-form row">
+                    <div class="form-field col-lg-6">
+                        <input type="text" id="name" class="input-text" name="personne" value="<?php if(isset($_POST['personne'])) {echo $_POST['personne'];} ?>" required>
+                        <label for="name" class="label">Qui êtes-vous ? *</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input type="email" id="email" class="input-text" name="mail" value="<?php if(isset($_POST['mail'])) {echo $_POST['mail'];} ?>" required>
+                        <label for="email" class="label">Adresse mail ? *</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input type="text" id="company" class="input-text" name="societe" value="<?php if(isset($_POST['societe'])) {echo $_POST['societe'];} ?>">
+                        <label for="company" class="label">Société ?</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="phone" class="input-text" name="telephone" 
+                        value="<?php if(isset($_POST['telephone'])) {echo $_POST['telephone'];} ?>" required>
+                        <label for="phone" class="label">Téléphone ? *</label>
+                    </div>
+                    <div class="form-field col-lg-12">
+                        <textarea id="message" class="input-text" name="message" value="<?php if(isset($_POST['message'])) {echo $_POST['message'];} ?>" required></textarea>
+                        <label for="message" class="label">Que voulez-vous me dire ? *</label>
+                    </div>
+                    <div class="form-field col-lg-12">
+                        <input type="submit" value="Envoyer" class="submit-btn" name="MailForm">
+                    </div>
+                    <?php
+                        if(isset($erreur)){
+                            echo '<label style="color: red">'.$erreur.'</label>';
+                        }
+                        if (isset($ok)) {
+                            echo '<label style="color: green;">'.$ok.'</label>';
+                        }
+                    ?>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </section>
     <!-- Optional JavaScript -->
