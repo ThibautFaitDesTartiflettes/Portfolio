@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="includes/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://kit.fontawesome.com/be8b49b8eb.js"></script>
     <title>Portfolio - Thibaut Meslin</title>
 </head>
@@ -84,7 +85,128 @@
     </div>
 </section>
 <section id="PPE" data-text="Section 2">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container-fluid d-flex h-100">
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Repas BTS</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser une application afin que les écoliers puissent commander / consulter /
+                                        annuler leur repas directement depuis cette application.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
+                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
+                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
+                                                    src="images/langages/css.png" class="logoCss"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
+                                                    class="logoVscode"></a>
+                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
+                                                    class="logoOvh"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                                    class="logoPhpmyadmin"></a>
+                                        </span>
+                                    </p>
+                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                        class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Repas BTS</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser une application afin que les écoliers puissent commander / consulter /
+                                        annuler leur repas directement depuis cette application.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
+                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
+                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
+                                                    src="images/langages/css.png" class="logoCss"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
+                                                    class="logoVscode"></a>
+                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
+                                                    class="logoOvh"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                                    class="logoPhpmyadmin"></a>
+                                        </span>
+                                    </p>
+                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                        class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Repas BTS</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser une application afin que les écoliers puissent commander / consulter /
+                                        annuler leur repas directement depuis cette application.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
+                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
+                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
+                                                    src="images/langages/css.png" class="logoCss"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
+                                                    class="logoVscode"></a>
+                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
+                                                    class="logoOvh"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                                    class="logoPhpmyadmin"></a>
+                                        </span>
+                                    </p>
+                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                        class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/><br/><div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="stages" data-text="Section 3">
     <div class="container-fluid d-flex h-100 background">
@@ -194,9 +316,43 @@
     </div>
 </section>
     <!-- Optional JavaScript -->
+    <!-- Typed JS -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
 		var typed = new Typed('#typed', { strings: ["Mon incroyable <br> portfolio !"], typeSpeed: 75, cursorChar: '_', showCursor: false });
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var Lscreen = screen.width;
+        var value = 0;
+        if (Lscreen > 1024) {
+            value = 3;
+        }
+        else{
+            value = 1;
+        }
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			loop: true,
+			slidesPerView: value,
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows: false,
+			},
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: true,
+			},
+            pagination: {
+            el: '.swiper-pagination',
+        },
+		});
 	</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

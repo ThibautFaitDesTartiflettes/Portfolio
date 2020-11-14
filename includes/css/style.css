@@ -29,7 +29,7 @@ section:nth-child(odd) {
 }
 
 .background{
-    background-image: linear-gradient(to top left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
+    background: linear-gradient(to top left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
 }
 
 .navbar{
@@ -145,6 +145,51 @@ section:nth-child(odd) {
 
 #stages p, #stages h1{
     color: #fff;
+}
+
+#PPE{
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
+}
+
+.square {
+    position: relative;
+    background: #fff;
+    width: 400px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.square .sliderContent {
+    width: 400px;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.square .sliderTitle {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.square .sliderTitle h3 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.square .sliderContent .bouton {
+    display: inline-block;
+    margin: 5px 0 0;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 2px solid #262626;
+    color: #262626;
+    font-weight: 600;
 }
 
 #contact{
