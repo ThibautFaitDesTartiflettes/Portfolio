@@ -108,14 +108,14 @@
             {
                 $header="MIME-Version: 1.0\r\n";
                 $header.='From:"thibaut.meslin.bts@free.fr"<support@thibautmeslinbts.fr>'."\n";
-                $header.='Content-Type:text/html; charset="uft-8"'."\n";
+                $header.='Content-Type:text/html; charset="utf-8"'."\n";
                 $header.='Content-Transfer-Encoding: 8bit';
         
                 $message='
                 <html>
                     <body>
                         <div align="center">
-                            <img src="../img/banniere_mail.gif"/>
+                            <img src="http://thibaut.meslin.bts.free.fr/Portfolio/includes/img/banniere_mail.gif">
                             <br />
                             <u>Nom de l\'expéditeur :</u>'.$_POST['personne'].'<br />
                             Mail de l\'expéditeur :'.$_POST['mail'].'<br />
