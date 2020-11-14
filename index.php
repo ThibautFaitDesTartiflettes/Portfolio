@@ -129,7 +129,7 @@
                 </html>
                 ';
         
-                mail("thibaut.meslin@gmail.com", "CONTACT - Portoflio", $message, $header);
+                mail("thibaut.meslin@hotmail.com", "CONTACT - Portoflio", $message, $header);
                 $ok = "Votre message a bien été envoyé";
             }
             else{
