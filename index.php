@@ -32,7 +32,7 @@
                 <a class="nav-link" href="#PPE">PPE</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#stages">Stage</a>
+                <a class="nav-link" href="#stages">Stages</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#dev">Développement</a>
@@ -87,7 +87,21 @@
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
 </section>
 <section id="stages" data-text="Section 3">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container-fluid d-flex h-100 background">
+        <div class="row align-self-center">
+            <div class="col-sm-8 pres">
+                <h1 class="text-center">Stages</h1>
+                <p class="mx-5 text-justify">Je suis actuellement en recherche de stages pour mon BTS, j'en effectuerai un en Janvier pour 8 semaines. Je recherche un stage dans le domaine du développement et donc en lien avec mon option SLAM, je dois pour celui-ci être intégré à une équipe et développer ce qu'il me sera donner de développer afin de construire un rapport de stage qui sera présenté lors d'un oral pour l'obtention du diplôme.</p>
+                <a href="#CV" class="btnD1" style="margin-left: 50px;">Voir mon CV</a>
+                <a href="#contact" class="btnD1">Me contacter</a>
+            </div>
+            <div class="col-sm-4 align-self-center">
+                <div class="text-center">
+                    <img src="includes/img/loupe_stage.png" width="80%" id="img-contact">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="dev" data-text="Section 4">
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
