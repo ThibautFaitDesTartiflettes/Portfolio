@@ -147,29 +147,22 @@ section:nth-child(odd) {
     color: #fff;
 }
 
-#PPE{
+.white{
+    color: #fff;
+}
+
+.background2{
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
 }
 
-#dev{
-    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
-}
-
-#PPE h1{
+#PPE h1, #dev h1, #CV h1, #veille h1{
     color: #fff;
     margin: 35px auto;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
 }
 
-#dev h1{
-    color: #fff;
-    margin: 35px auto;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-}
-
-#cyberEdu h1{
+#cyberEdu h1, #CV h3{
     color: #fff;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
@@ -387,6 +380,16 @@ section:nth-child(odd) {
     border-radius: 0 8px 8px 0;
 }
 
+/*
+#profil, #PPE, #stages, #dev, #cyberEdu, #veille, #CV, #contact{
+    min-height: 100vh;
+}
+
+#PPE h1, #stages h1, #dev h1, #cyberEdu h1, #veille h1, #CV h1, #contact h1{
+    margin-top: 150px;
+}
+*/
+
 .select-box .option,
 .selected {
     padding: 12px 24px;
@@ -410,12 +413,132 @@ section:nth-child(odd) {
     text-decoration: none;
 }
 
+.toggle-label {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin: 15px 50px;
+}
+.toggle-label input[type=checkbox] { 
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.toggle-label input[type=checkbox]+.back {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: background 150ms linear;
+}
+.toggle-label input[type=checkbox]:checked+.back {
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.toggle-label input[type=checkbox]+.back .toggle {
+    display: block;
+    position: absolute;
+    content: ' ';
+    background: #fff;
+    width: 50%; 
+    height: 100%;
+    transition: margin 150ms linear;
+    border: 1px solid #808080;
+    border-radius: 50px;
+}
+.toggle-label input[type=checkbox]:checked+.back .toggle {
+    margin-left: 150px;
+}
+.toggle-label .label {
+    display: block;
+    position: absolute;
+    width: 50%;
+    color: #000;
+    line-height: 24px;
+    text-align: center;
+    font-size: 10px;
+}
+.toggle-label .label.on { left: 0px; }
+.toggle-label .label.off { right: 0px; }
+
+.toggle-label input[type=checkbox]:checked+.back .label.on {
+    color: #fff;
+}
+.toggle-label input[type=checkbox]+.back .label.off {
+    color: #fff;
+    cursor: pointer;
+}
+.toggle-label input[type=checkbox]:checked+.back .label.off {
+    color: #000;
+}
+
+#ang{
+    display: none;
+}
+
+.progress{
+    margin: 50px 0;
+    height: 20px;
+    background: #262626;
+}
+
+#black{
+    color: #000;
+    font-weight: bold;
+    margin: auto;
+}
+
+.timeline, .timeline h3{
+    color: #fff;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 70px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
 #contact{
     height: 100vh;
     display: flex;
-    background: url(../img/bg_contact.gif);
     background-size: cover;
     background-position: center;
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
 }
 
 .contactUs{
@@ -423,7 +546,6 @@ section:nth-child(odd) {
     position: relative;
     box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
     padding: 30px;
-    background-color: #2C2C2E;
 }
 
 .contactUs .title{
@@ -433,10 +555,7 @@ section:nth-child(odd) {
     font-style: 3em;
     line-height: 78px;
     padding-bottom: 20px;
-    color: #5543ca;
-    background: linear-gradient(to right, #0F0E0E, #f4524d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
 }
 
 .contact-form .form-field{
@@ -448,6 +567,7 @@ section:nth-child(odd) {
     height: 180px;
     background-color: #2C2C2E;
     color: #fff;
+    background-color: initial;
 }
 
 .contact-form .input-text{
@@ -455,11 +575,11 @@ section:nth-child(odd) {
     width: 100%;
     height: 36px;
     border-width: 0 0 2px 0;
-    border-color: #901111;
+    border-color: #fff;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    background-color: #2C2C2E;
+    background-color: initial;
     color: #fff;
 }
 
@@ -479,7 +599,7 @@ section:nth-child(odd) {
     font-size: 18px;
     line-height: 26px;
     font-weight: 600;
-    color: #901111;
+    color: #fff;
     cursor: text;
     transition: transform 0.2s ease-in-out;
 }
@@ -495,6 +615,20 @@ section:nth-child(odd) {
     border: none;
     width: 200px;
     cursor: pointer;
+}
+
+iframe{
+    margin-top: 25px;
+    width: 750px;
+    height: 500px;
+}
+
+#pageVeille{
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
+}
+
+#pageVeille .row, #pageVeille h1{
+    margin: 25px 0;
 }
 
 @media (max-width: 992px){
@@ -590,5 +724,29 @@ section:nth-child(odd) {
 
     .select-box .options-container.active {
         max-height: 90px;
+    }
+
+    #CV h3{
+        margin-top: 15px;
+    }
+
+    .progress{
+        margin: 10px 0;
+        height: 15px;
+        background: #262626;
+    }
+
+    .timeline{
+        font-size: 10px;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    iframe{
+        width: 200px;
+        height: 200px;
     }
 }

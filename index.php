@@ -43,7 +43,7 @@
                 <a class="nav-link" href="#cyberEdu">CyberEdu</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#veilles">Veilles</a>
+                <a class="nav-link" href="#veille">Veilles</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#CV">CV</a>
@@ -61,7 +61,7 @@
             <div class="col-sm-6">
                 <h2 id="typed"></h2>
                 <p>Une tasse de café &#9749; ? Un petit gâteau 🍰 ? Alors vous êtes prêt pour la visite, choisissez donc une option dans le menu ci-dessus, sur le bouton en dessous ou scrollez ! <br><strong>Bonne visite !</strong></p>
-                <a href="#" class="btnD1">M'emmener quelque part</a>
+                <a href="#" class="btnD1" onclick="RandLien()">M'emmener quelque part</a>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@
     </div>
 </section>
 <section id="PPE" data-text="Section 2">
-    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background2">
         <div class="row w-100">
             <div class="col-sm-12 align-self-center pres">
                 <h1 class="text-center">Projets Personnels Encadrés</h1>
@@ -419,7 +419,7 @@
     </div>
 </section>
 <section id="dev" data-text="Section 4">
-    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background2">
         <div class="row w-100">
             <div class="col-sm-12 align-self-center pres">
                 <h1 class="text-center">Développement</h1>
@@ -612,11 +612,169 @@
         <!-- Fermeture image -->
     </div>
 </section>
-<section id="veilles" data-text="Section 6">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+<section id="veille" data-text="Section 6">
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background2">
+        <div class="row align-self-center">
+            <div class="col-sm-8 pres">
+                <h1 class="text-center">Veille sur la robotique
+                    <label class="toggle-label float-right">
+                        <input type="checkbox">
+                        <span class="back">
+                    <span class="toggle"></span>
+                        <span class="label on" onclick="switchLg()">Français</span>
+                        <span class="label off" onclick="switchLg()">English</span>
+                        </span>
+                    </label>
+                </h1>
+                <p class="mx-5 text-justify white" id="fr">La robotique est l'ensemble des techniques permettant la conception et la réalisation de machines autonomes ou robots. 
+                    Ce choix s'est imposé à moi car travailler dans la robotique est un de mes projets d'avenirs. En effet, je souhaite travailler dans la robotique 
+                    ou dans la domotique / automatisation et ces deux sujets sont étroitement liés. Je pense que ce thème est très 
+                    intéréssant car le monde est en proie à être remplacé par des machines ou contraint à vivre avec 
+                    ce qui peut éveiller une peur ou au contraire un excitation de voir le futur. 
+                    Le robot est très polyvalent et peut s'utiliser dans de nombreux domaines comme l'industrie, 
+                    le secteur médical, le secteur médical ou encore Domestique.</p>
+                <p class="mx-5 text-justify white" id="ang">Robotics is the set of techniques allowing the design and realization of autonomous machines or robots. This choice imposed itself to me because 
+                    working in robotics is one of my future projects. Indeed, I wish to work in robotics or in domotics / automation and these two subjects are closely linked. 
+                    I think that this theme is very interesting because the world is in the grip of being replaced by machines or forced 
+                    to live with what can arouse a fear or on the contrary an excitement to see the future. The robot is very versatile and 
+                    can be used in many fields such as industry, medical, medical sector or even Domestic.</p>
+            </div>
+            <div class="col-sm-4 align-self-center">
+                <div class="text-center">
+                    <img src="includes/img/robotique.jpg" width="60%">
+                </div>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center">
+                <form action="veille.php" method="POST">
+                    <div class="swiper-container" style="margin-top: 25px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
+                                        <h3>L'espace</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 12/11/2020</p>
+                                        <img src="includes/veille/img/accueil/duaxel.jpg" width="75%">
+                                        <p>DuAxel est le nouveau explorateur de la NASA et il est prêt à partir enquêter dans l'espace.</p>
+                                        <a href="includes/veille/veille-duaxel.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
+                                        <h3>Robot cuisto</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 08/10/2020</p>
+                                        <img src="includes/veille/img/accueil/flippy.jpg" width="75%">
+                                        <p>Flippy est un robot capable de cuisiner n'importe quoi.</p>
+                                        <a href="includes/veille/veille-flippy.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
+                                        <h3>Prélever plus vite</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 27/05/2020</p>
+                                        <img src="includes/veille/img/accueil/prelevement.jpg" width="60%">
+                                        <p>Un robot ultra-précis permettant des échantillons de qualité excellente.</p>
+                                        <a href="includes/veille/veille-prelevement.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
+                                        <h3>Coronavirus</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 27/02/2020</p>
+                                        <img src="includes/veille/img/accueil/thor.jpg" width="75%">
+                                        <p></p>Thor est un robot permettant de désinfecter l'air.</p>
+                                        <a href="includes/veille/veille-coronavirus.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
+                                        <h3>Xenobot</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 13/01/2020</p>
+                                        <img src="includes/veille/img/accueil/xenobots.jpg" width="75%">
+                                        <p>Un robot "vivant" microscopique en cours de création.</p>
+                                        <a href="includes/veille/veille-xenobot.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br/><br/><div class="swiper-pagination"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="CV" data-text="Section 7">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background">
+        <div class="row w-100 align-self-center">
+            <div class="col-sm-6 pres">
+                <h1 class="text-center">Mes compétences</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"><label id="black">85% - SQL</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"><label id="black">75% - HTML</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"><label id="black">70% - C#</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><label id="black">65% - CSS</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><label id="black">60% - PHP</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><label id="black">50% - Python</label></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%"><label id="black">15% - JavaScript</label></div>
+                </div>
+            </div>
+            <div class="col-sm-6 align-self-center">
+                <h3>Mon parcours</h3>
+                <ul class="timeline">
+                    <li>
+                        <a target="_blank" href="https://www.stadjutor.com/affich_unite.php?numUnite=5">BTS SIO - Saint Adjutor - VERNON</a>
+                        <span class="float-right">2019 - 2021 (En cours)</span>
+                        <p>Etude en cours, actuellement en 2ème année, option SLAM.</p>
+                    </li>
+                    <li>
+                        <a href="http://dumezil-lyc.spip.ac-rouen.fr/">Lycée Georges Dumézil - Section S SI option ISN - VERNON</a>
+                        <span class="float-right">2016 - 2019</span>
+                        <p>Baccalauréat obtenu avec mention assez bien.</p>
+                    </li>
+                    <li>
+                        <a href="http://www.immaculee-evreux.com/immaculee/">Collège Immaculée Conception - EVREUX</a>
+                        <span class="float-right">2012 - 2016</span>
+                        <p>Brevet des collèges obtenu avec mention bien.</p>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <a href="includes/ressources/Profesionnel/CV.pdf" class="btnD1">Télécharger mon CV !</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="contact" data-text="Section 8">
     <?php
@@ -765,6 +923,28 @@
 				});
 			});
 		});
+    </script>
+    <!-- Random bouton -->
+    <script>
+        function RandLien(){
+            var liens = ['#profil','#PPE','#stages','#dev','#cyberEdu','#veille','#CV','#contact'];
+            var result = liens[Math.floor(Math.random()*8)];
+            document.open(result);
+        }
+    </script>
+    <!-- Switch langue veille -->
+    <script type="text/javascript">
+		function switchLg() {
+			var fr = document.getElementById("fr");
+			var ang = document.getElementById("ang");
+			if (fr.style.display == "block") {
+				fr.style.display = "none";
+				ang.style.display = "block";
+			} else {
+				fr.style.display = "block";
+				ang.style.display = "none";
+			}
+		}
 	</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
