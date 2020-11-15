@@ -520,23 +520,20 @@
     </div>
 </section>
 <section id="cyberEdu" data-text="Section 5">
-    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
-        <div class="row w-100">
-            <div class="col-sm-8 align-self-center pres">
-                <h1 class="text-center">CyberEdu</h1>
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background">
+        <div class="row align-self-center" style="margin-top: -30px;">
+                <div class="col-sm-8 pres">
+                    <h1 class="text-center">CyberEdu</h1>
+                    <p class="mx-5 text-justify">CyberEdu est un projet de sensibilisation à la sécurité informatique né en 2014, d'un marché public passé entre l'Agence nationale 
+                        de la sécurité des systèmes d'information, l'Université européenne de Bretagne et l'entreprise Orange. J'ai suivi le parcours Cisco : 
+                        Introduction to cybersecurity obtenu avec un taux de réussite de 100%. Je suis en train de passe la labelisation Cisco : cybersecurity Essential.</p>
+                </div>
+                <div class="col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <img src="includes/img/cyberEdu.png">
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4 align-self-center">
-                <img src="includes/img/cyberEdu.png" width="50%">
-            </div>
-        </div>
-        <div class="row w-100">
-            <div class="col-sm-12 align-self-center">
-                <p class="mx-5 text-justify">CyberEdu est un projet de sensibilisation à la sécurité informatique né en 2014, d'un
-                    marché public passé entre l'Agence nationale de la sécurité des systèmes d'information, l'Université
-                    européenne de Bretagne et l'entreprise Orange. J'ai suivi le parcours Cisco : Introduction to
-                    cybersecurity obtenu avec un taux de réussite de 100%. Je suis en train de passe la labelisation Cisco : cybersecurity Essential.</p>
-            </div>
-        </div>
         <div class="row w-75">
             <div class="col-sm-6 align-self-center text-center">
                 <div class="module-container">

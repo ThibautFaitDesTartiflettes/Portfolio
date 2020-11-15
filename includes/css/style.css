@@ -169,6 +169,12 @@ section:nth-child(odd) {
     font-weight: bold;
 }
 
+#cyberEdu h1{
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
 .square {
     position: relative;
     background: #fff;
@@ -287,6 +293,16 @@ section:nth-child(odd) {
     width: 10%;
 }
 
+#cyberEdu p{
+    color: #fff;
+    margin: 35px 0;
+}
+
+#cyberEdu img{
+    margin-top: -25px;
+    width: 50%;
+}
+
 .module-container {
     display: flex;
     flex-direction: row;
@@ -296,13 +312,13 @@ section:nth-child(odd) {
     color: #fff;
 }
 
-.md-container {
-    padding-right: 50px;
+.module-container h3{
+    margin-top: 10px;
 }
 
 .select-box {
     display: flex;
-    width: 400px;
+    width: 350px;
     flex-direction: column;
 }
 
@@ -315,7 +331,7 @@ section:nth-child(odd) {
     transition: all 0.4s;
     border-radius: 8px;
     overflow: hidden;
-    width: 400px;
+    width: 350px;
 
     order: 1;
 
@@ -335,7 +351,7 @@ section:nth-child(odd) {
 
 .selected::after {
     content: "";
-    background: url("images/divers/arrow-down.svg");
+    background: url("../img/arrow-down.svg");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -490,6 +506,24 @@ section:nth-child(odd) {
     .contactUs{
         max-width: 800px;
     }
+
+    #cyberEdu img{
+        width: 100%;
+        margin-left: -50px;
+    }
+
+    .select-box {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .select-box .options-container {
+        width: 250px;
+    }
+
+    .select-box .options-container.active {
+        max-height: 90px;
+    }
 }
 
 @media (max-width: 767px){
@@ -543,5 +577,18 @@ section:nth-child(odd) {
 
     #dev h1{
         font-size: 24px;
+    }
+
+    .select-box {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .select-box .options-container {
+        width: 250px;
+    }
+
+    .select-box .options-container.active {
+        max-height: 90px;
     }
 }
