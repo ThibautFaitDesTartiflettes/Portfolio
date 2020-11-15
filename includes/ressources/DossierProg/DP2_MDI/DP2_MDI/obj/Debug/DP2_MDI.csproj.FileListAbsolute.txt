@@ -1,0 +1,44 @@
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe.config
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.pdb
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csprojAssemblyReference.cache
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmMenu.resources
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.Properties.Resources.resources
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.GenerateResource.cache
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.CoreCompileInputs.cache
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.exe
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.pdb
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmNvJoueur.resources
+C:\Users\meslint\Desktop\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmVoirJoueur.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe.config
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.pdb
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csprojAssemblyReference.cache
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmMenu.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmModifAvatar.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmModifMail.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmNvJoueur.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmVoirJoueur.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.Properties.Resources.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.GenerateResource.cache
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.CoreCompileInputs.cache
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.exe
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.pdb
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmEvoluer.resources
+D:\Dossier de programmation\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmPoints.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe.config
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.exe
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\bin\Debug\DP2_MDI.pdb
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csprojAssemblyReference.cache
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmEvoluer.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmMenu.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmModifAvatar.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmModifMail.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmNvJoueur.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmPoints.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.frmVoirJoueur.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.Properties.Resources.resources
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.GenerateResource.cache
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.csproj.CoreCompileInputs.cache
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.exe
+C:\Users\Thibaut Meslin\OneDrive\Bureau\DP2_MDI\DP2_MDI\obj\Debug\DP2_MDI.pdb

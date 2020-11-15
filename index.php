@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="includes/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/be8b49b8eb.js"></script>
     <title>Portfolio - Thibaut Meslin</title>
 </head>
@@ -85,7 +86,12 @@
     </div>
 </section>
 <section id="PPE" data-text="Section 2">
-    <div class="container-fluid d-flex h-100">
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center pres">
+                <h1 class="text-center">Projets Personnels Encadrés</h1>
+            </div>
+        </div>
         <div class="row w-100">
             <div class="col-sm-12 align-self-center">
                 <div class="swiper-container">
@@ -93,36 +99,39 @@
                         <div class="swiper-slide">
                             <div class="square">
                                 <div class="sliderTitle">
-                                    <h3>Repas BTS</h3>
+                                    <h3>Gsb Lot</h3>
                                 </div>
                                 <div class="sliderContent">
-                                    <p>Réaliser une application afin que les écoliers puissent commander / consulter /
-                                        annuler leur repas directement depuis cette application.</p>
+                                    <p>Réaliser une application qui permet à la société GSB de gérer les étapes de distributions de ses échantillons auprès de productions, magasins et visiteurs.</p>
                                     <p>Langage(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
                                             <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
-                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                                    src="includes/img/langages/php.png" class="logoPhp"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
-                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                                    src="includes/img/langages/html.png" class="logoHtml"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
-                                                    src="images/langages/css.png" class="logoCss"></a>
+                                                    src="includes/img/langages/css.png" class="logoCss"></a>
                                         </span>
                                     </p>
                                     <p>Logiciel(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
+                                            <a href="https://code.visualstudio.com/"><img src="includes/img/logiciels/vs_code.png"
                                                     class="logoVscode"></a>
-                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
+                                            <a href="https://www.ovh.com/fr/"><img src="includes/img/logiciels/ovh.png"
                                                     class="logoOvh"></a>
-                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                            <a href="https://www.phpmyadmin.net/"><img src="includes/img/logiciels/phpmyadmin.png"
                                                     class="logoPhpmyadmin"></a>
+                                            <a href="https://www.wampserver.com/"><img src="includes/img/logiciels/wampserver.jpg"
+                                                    class="logoWampserver"></a>
+                                            <a href="https://desktop.github.com/"><img
+                                            src="includes/img/langages/github.png" class="logoHtml"></a>
                                         </span>
                                     </p>
-                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
-                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                    <a href="includes/ressources/PPE/PPE_GsbLot.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_GsbLot/fiche_situation_meslin.pdf" class="bouton">Fiche de
                                         situation</a>
-                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                    <a href="includes/ressources/PPE/PPE_GsbLot/validation_competences_meslin.pdf"
                                         class="bouton">Validation de compétences</a>
                                 </div>
                             </div>
@@ -137,29 +146,29 @@
                                         annuler leur repas directement depuis cette application.</p>
                                     <p>Langage(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
                                             <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
-                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                                    src="includes/img/langages/php.png" class="logoPhp"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
-                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                                    src="includes/img/langages/html.png" class="logoHtml"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
-                                                    src="images/langages/css.png" class="logoCss"></a>
+                                                    src="includes/img/langages/css.png" class="logoCss"></a>
                                         </span>
                                     </p>
                                     <p>Logiciel(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
+                                            <a href="https://code.visualstudio.com/"><img src="includes/img/logiciels/vs_code.png"
                                                     class="logoVscode"></a>
-                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
+                                            <a href="https://www.ovh.com/fr/"><img src="includes/img/logiciels/ovh.png"
                                                     class="logoOvh"></a>
-                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                            <a href="https://www.phpmyadmin.net/"><img src="includes/img/logiciels/phpmyadmin.png"
                                                     class="logoPhpmyadmin"></a>
                                         </span>
                                     </p>
-                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
-                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                    <a href="includes/ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
                                         situation</a>
-                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                    <a href="includes/ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
                                         class="bouton">Validation de compétences</a>
                                 </div>
                             </div>
@@ -167,37 +176,221 @@
                         <div class="swiper-slide">
                             <div class="square">
                                 <div class="sliderTitle">
-                                    <h3>Repas BTS</h3>
+                                    <h3>ProSanté</h3>
                                 </div>
                                 <div class="sliderContent">
-                                    <p>Réaliser une application afin que les écoliers puissent commander / consulter /
-                                        annuler leur repas directement depuis cette application.</p>
+                                    <p>Réaliser un logiciel permettant la consultation de toutes les données et statistiques
+                                        de la société GSB ainsi que de rentrer des informations dans la base de données
+                                        associée.</p>
                                     <p>Langage(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://sql.sh/"><img src="images/langages/sql.jpg" class="logoSql"></a>
-                                            <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
-                                                    src="images/langages/php.png" class="logoPhp"></a>
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
-                                                    src="images/langages/html.png" class="logoHtml"></a>
+                                                    src="includes/img/langages/html.png" class="logoHtml"></a>
                                             <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
-                                                    src="images/langages/css.png" class="logoCss"></a>
+                                                    src="includes/img/langages/css.png" class="logoCss"></a>
                                         </span>
                                     </p>
                                     <p>Logiciel(s) utilisé(s) :
                                         <span class="dev-lg">
-                                            <a href="https://code.visualstudio.com/"><img src="images/logiciels/vs_code.png"
-                                                    class="logoVscode"></a>
-                                            <a href="https://www.ovh.com/fr/"><img src="images/logiciels/ovh.png"
-                                                    class="logoOvh"></a>
-                                            <a href="https://www.phpmyadmin.net/"><img src="images/logiciels/phpmyadmin.png"
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                            <a href="https://www.wampserver.com/"><img src="includes/img/logiciels/wampserver.jpg"
+                                                    class="logoWampserver"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="includes/img/logiciels/phpmyadmin.png"
                                                     class="logoPhpmyadmin"></a>
                                         </span>
                                     </p>
-                                    <a href="ressources/PPE/PPE_Repas.zip" class="bouton">Télécharger le projet</a>
-                                    <a href="ressources/PPE/PPE_Repas/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                    <a href="includes/ressources/PPE/PPE_ProSante.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_ProSante/fiche_situation_meslin.pdf" class="bouton">Fiche de
                                         situation</a>
-                                    <a href="ressources/PPE/PPE_Repas/validation_competences_meslin.pdf"
+                                    <a href="includes/ressources/PPE/PPE_ProSante/validation_competences_meslin.pdf"
                                         class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Impress</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser un site internet permettant la consultation des traces d'impressions. Ce
+                                        projet inclu une gestion des permissions ratachées aux personnels depuis une base de
+                                        données.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
+                                            <a href="https://www.php.net/manual/fr/intro-whatis.php"><img
+                                                    src="includes/img/langages/php.png" class="logoPhp"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
+                                                    src="includes/img/langages/html.png" class="logoHtml"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
+                                                    src="includes/img/langages/css.png" class="logoCss"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://www.sublimetext.com/"><img src="includes/img/logiciels/sublime_text.png"
+                                                    class="logoSublimeText"></a>
+                                            <a href="https://www.wampserver.com/"><img src="includes/img/logiciels/wampserver.jpg"
+                                                    class="logoWampserver"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="includes/img/logiciels/phpmyadmin.png"
+                                                    class="logoPhpmyadmin"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_CMS.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_CMS/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="includes/ressources/PPE/PPE_CMS/validation_competences_meslin.pdf" class="bouton">Validation
+                                        de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>WordPress</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Rechercher et Créer un site facade pour la maison des ligues de Lorraine en utilisant
+                                        le CMS WordPress. Le site était hébergé localement.</p>
+                                    <p>Langage(s) utilisé(s) : Aucun</p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a
+                                                href="https://fr.wordpress.com/create/?currency=EUR&utm_source=google&utm_campaign=google_wpcom_search_brand_desktop_fr_fr&utm_medium=paid_search&keyword=wordpress&creative=329671355476&campaignid=670246977&adgroupid=50885962010&matchtype=e&device=c&network=g&targetid=kwd-313411415&gclid=CjwKCAjwxqX4BRBhEiwAYtJX7Qsonpa9oc_rhhemx2dKFMCTySUXSjCxtJO6V59ParvvHAsPwdAS7hoCQswQAvD_BwE&gclsrc=aw.ds"><img
+                                                    src="includes/img/logiciels/wordpress.png" class="logoWordpress"></a>
+                                            <a href="https://www.wampserver.com/"><img src="includes/img/logiciels/wampserver.jpg"
+                                                    class="logoWampserver"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_CMS.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_CMS/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="includes/ressources/PPE/PPE_CMS/validation_competences_meslin.pdf" class="bouton">Validation
+                                        de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Digicode</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser un digicode entièrement fonctionnel et autonome fonctionnant avec des
+                                        informations inscrites dans des fichiers CSV et capable d'écrire dans ceux-ci.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                            <a href="https://www.microsoft.com/fr-ww/microsoft-365/excel"><img
+                                                    src="includes/img/logiciels/excel.png" class="logoExcel"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_DIGICODE.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_DIGICODE/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="includes/ressources/PPE/PPE_DIGICODE/validation_competences_meslin.pdf"
+                                        class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Veille Techno</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Mettre en place un dispositif de veille technologique visant à se tenir informé sur
+                                        un sujet de notre choix mais en rapport avec notre projet professionnel.</p>
+                                    <p>Langage(s) utilisé(s) : Aucun</p>
+                                    <p>Logiciel(s) utilisé(s) : Aucun</p>
+                                    <a href="includes/ressources/PPE/Robotique.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/Robotique/fiche_situation.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="includes/ressources/PPE/Robotique/Robotique dossier.pdf" class="bouton">Validation de
+                                        compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>GSB VISTAT</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser des statistiques à partir d'une base de données écrite en langage SQL et
+                                        fournir des exports et comptes-rendus sous-forme d'imports CSV.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://www.wampserver.com/"><img src="includes/img/logiciels/wampserver.jpg"
+                                                    class="logoWampserver"></a>
+                                            <a href="https://www.phpmyadmin.net/"><img src="includes/img/logiciels/phpmyadmin.png"
+                                                    class="logoPhpmyadmin"></a>
+                                            <a href="https://www.microsoft.com/fr-ww/microsoft-365/excel"><img
+                                                    src="includes/img/logiciels/excel.png" class="logoExcel"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_GSB_VISTAT.zip" class="bouton">Télécharger le projet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Equipement</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Rechercher et organiser la distribution et la gestion des PCs des parlementaires et
+                                        de leur attaché afin de proposer le meilleur matériel au meilleur coût.</p>
+                                    <p>Langage(s) utilisé(s) : Aucun</p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://www.netacad.com/fr/courses/packet-tracer"><img
+                                                    src="includes/img/logiciels/packet_tracer.png" class="logoPacketTracer"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_EQUIPEMENT.zip" class="bouton">Télécharger le projet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Portfolio</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réalisation du portfolio pour le suivi des ressources tout au long du BTS.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img
+                                                    src="includes/img/langages/html.png" class="logoHtml"></a>
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img
+                                                    src="includes/img/langages/css.png" class="logoCss"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://www.sublimetext.com/"><img src="includes/img/logiciels/sublime_text.png"
+                                                    class="logoSublimeText"></a>
+                                        </span>
+                                    </p>
+                                    <a href="ressources/PPE/Portfolio.zip" class="bouton">Télécharger le projet</a>
                                 </div>
                             </div>
                         </div>
@@ -226,10 +419,201 @@
     </div>
 </section>
 <section id="dev" data-text="Section 4">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center pres">
+                <h1 class="text-center">Développement</h1>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Jeu en C#</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réalisation libre d'un petit jeu. Le projet doit comporter un système de gestion des
+                                        colisions et de gestion de score.</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/DossierProg/DP1_Personnage.zip" class="bouton">Télécharger le
+                                        projet</a>
+                                    <a href="includes/ressources/DossierProg/DP1_Personnage/Dossier de programmation DP1.pdf"
+                                        class="bouton">Dossier de programmation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Menu MDI</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser un menu MDI (Multiple Document Interface) permettant à un utilisateur de
+                                        créer un joueur et modifier ses informations (niveau/point/email/...).</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/DossierProg/DP2_MDI.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/DossierProg/DP2_MDI/SLAM2_dp2_sujet.pdf" class="bouton">Sujet</a>
+                                    <a href="includes/ressources/DossierProg/DP2_MDI/Dossier de programmation.pdf" class="bouton">Dossier
+                                        de programmation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Communauté</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Améliorer le projet précédent en ajoutant la fonctionnalité : communauté. Une
+                                        communauté étant un ensemble de joueur réuni sous un même nom, une sorte de "clan".
+                                    </p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/DossierProg/DP3_Communaute.zip" class="bouton">Télécharger le
+                                        projet</a>
+                                    <a href="includes/ressources/DossierProg/DP3_Communaute/SLAM2_dp3_sujet.pdf" class="bouton">Sujet</a>
+                                    <a href="includes/ressources/DossierProg/DP3_Communaute/Dossier de programmation.pdf"
+                                        class="bouton">Dossier de programmation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/><br/><div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="cyberEdu" data-text="Section 5">
-    <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
+    <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center">
+        <div class="row w-100">
+            <div class="col-sm-8 align-self-center pres">
+                <h1 class="text-center">CyberEdu</h1>
+            </div>
+            <div class="col-sm-4 align-self-center">
+                <img src="includes/img/cyberEdu.png" width="50%">
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-sm-12 align-self-center">
+                <p class="mx-5 text-justify">CyberEdu est un projet de sensibilisation à la sécurité informatique né en 2014, d'un
+                    marché public passé entre l'Agence nationale de la sécurité des systèmes d'information, l'Université
+                    européenne de Bretagne et l'entreprise Orange. J'ai suivi le parcours Cisco : Introduction to
+                    cybersecurity obtenu avec un taux de réussite de 100%. Je suis en train de passe la labelisation Cisco : cybersecurity Essential.</p>
+            </div>
+        </div>
+        <div class="row w-75">
+            <div class="col-sm-6 align-self-center text-center">
+                <div class="module-container">
+                <div class="md-container">
+                    <h3>Module 1</h3>
+                    <div class="select-box">
+                        <div class="options-container">
+                            <div class="option">
+                                <input type="radio" class="radio" id="A1M1" name="category" />
+                                <label for="A1M1"><a href="ressources/CyberEdu/CyberEduA1 Module 1.pdf">Item
+                                        A1</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A5M1" name="category" />
+                                <label for="A5M1"><a href="ressources/CyberEdu/CyberEduA5 Module 1.pdf">Item
+                                        A5</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A6M1" name="category" />
+                                <label for="A6M1"><a href="ressources/CyberEdu/CyberEduA6 Module 1.pdf">Item
+                                        A6</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A7M1" name="category" />
+                                <label for="A7M1"><a href="ressources/CyberEdu/CyberEduA7 Module 1.pdf">Item
+                                        A7</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A9M1" name="category" />
+                                <label for="A9M1"><a href="ressources/CyberEdu/CyberEduA9 Module 1.pdf">Item
+                                        A9</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A11M1" name="category" />
+                                <label for="A11M1"><a href="ressources/CyberEdu/CyberEduA11 Module 1.pdf">Item
+                                        A11</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A13M1" name="category" />
+                                <label for="A13M1"><a href="ressources/CyberEdu/CyberEduA13 Module 1.pdf">Item
+                                        A13</a></label>
+                            </div>
+                        </div>
+                        <div class="selected">
+                            Selectionner un item
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6 align-self-center text-center">
+                <div class="module-container">
+                <div class="md-container">
+                    <h3>Module 2</h3>
+                    <div class="select-box">
+                        <div class="options-container">
+                            <div class="option">
+                                <input type="radio" class="radio" id="A6M2" name="category" />
+                                <label for="A6M2"><a href="ressources/CyberEdu/CyberEduA6 Module 2.pdf">Item
+                                        A6</a></label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="A7M2" name="category" />
+                                <label for="A7M2"><a href="ressources/CyberEdu/CyberEduA7 Module 2.pdf">Item
+                                        A7</a></label>
+                            </div>
+                        </div>
+                        <div class="selected">
+                            Selectionner un item
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fermeture image -->
+    </div>
 </section>
 <section id="veilles" data-text="Section 6">
     <p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — Edsger Dijkstra</p>
@@ -352,6 +736,37 @@
             pagination: {
             el: '.swiper-pagination',
         },
+		});
+    </script>
+    <!-- ComboBox -->
+    <script type="text/javascript">
+		const selectedAll = document.querySelectorAll(".selected");
+
+		selectedAll.forEach((selected) => {
+			const optionsContainer = selected.previousElementSibling;
+
+			const optionsList = optionsContainer.querySelectorAll(".option");
+
+			selected.addEventListener("click", () => {
+				if (optionsContainer.classList.contains("active")) {
+					optionsContainer.classList.remove("active");
+				} else {
+					let currentActive = document.querySelector(".options-container.active");
+
+					if (currentActive) {
+						currentActive.classList.remove("active");
+					}
+
+					optionsContainer.classList.add("active");
+				}
+			});
+
+			optionsList.forEach(o => {
+				o.addEventListener("click", () => {
+					selected.innerHTML = o.querySelector("label").innerHTML;
+					optionsContainer.classList.remove("active");
+				});
+			});
 		});
 	</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40A634A8-6295-46D5-8005-55F8483A778D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DP3_Communaute</RootNamespace>
+    <AssemblyName>DP3_Communaute</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communaute.cs" />
+    <Compile Include="Comparer.cs" />
+    <Compile Include="frmChatCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChatCommunaute.Designer.cs">
+      <DependentUpon>frmChatCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassementJoueurCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassementJoueurCommunaute.Designer.cs">
+      <DependentUpon>frmClassementJoueurCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEvoluer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvoluer.Designer.cs">
+      <DependentUpon>frmEvoluer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfluenceurCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfluenceurCommunaute.Designer.cs">
+      <DependentUpon>frmInfluenceurCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifAvatar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifAvatar.Designer.cs">
+      <DependentUpon>frmModifAvatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifCommunaute.Designer.cs">
+      <DependentUpon>frmModifCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifMail.Designer.cs">
+      <DependentUpon>frmModifMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNvCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNvCommunaute.Designer.cs">
+      <DependentUpon>frmNvCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNvJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNvJoueur.Designer.cs">
+      <DependentUpon>frmNvJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPoints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPoints.Designer.cs">
+      <DependentUpon>frmPoints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuitterCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuitterCommunaute.Designer.cs">
+      <DependentUpon>frmQuitterCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRejoindreCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRejoindreCommunaute.Designer.cs">
+      <DependentUpon>frmRejoindreCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupCommunaute.Designer.cs">
+      <DependentUpon>frmSupCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoirCommunaute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoirCommunaute.Designer.cs">
+      <DependentUpon>frmVoirCommunaute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoirJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoirJoueur.Designer.cs">
+      <DependentUpon>frmVoirJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globale.cs" />
+    <Compile Include="Joueur.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChatCommunaute.resx">
+      <DependentUpon>frmChatCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassementJoueurCommunaute.resx">
+      <DependentUpon>frmClassementJoueurCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvoluer.resx">
+      <DependentUpon>frmEvoluer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfluenceurCommunaute.resx">
+      <DependentUpon>frmInfluenceurCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifAvatar.resx">
+      <DependentUpon>frmModifAvatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifCommunaute.resx">
+      <DependentUpon>frmModifCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifMail.resx">
+      <DependentUpon>frmModifMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNvCommunaute.resx">
+      <DependentUpon>frmNvCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNvJoueur.resx">
+      <DependentUpon>frmNvJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPoints.resx">
+      <DependentUpon>frmPoints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuitterCommunaute.resx">
+      <DependentUpon>frmQuitterCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRejoindreCommunaute.resx">
+      <DependentUpon>frmRejoindreCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupCommunaute.resx">
+      <DependentUpon>frmSupCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoirCommunaute.resx">
+      <DependentUpon>frmVoirCommunaute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoirJoueur.resx">
+      <DependentUpon>frmVoirJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\inactif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\loquace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rapide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\injure.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -151,6 +151,24 @@ section:nth-child(odd) {
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
 }
 
+#dev{
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgb(104, 0, 0));
+}
+
+#PPE h1{
+    color: #fff;
+    margin: 35px auto;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#dev h1{
+    color: #fff;
+    margin: 35px auto;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
 .square {
     position: relative;
     background: #fff;
@@ -190,6 +208,190 @@ section:nth-child(odd) {
     border: 2px solid #262626;
     color: #262626;
     font-weight: 600;
+}
+
+.square .sliderContent .bouton:hover{
+    background: #CABEBE;
+    transition: all 0.3s ease-in;
+}
+
+.logoHtml {
+    margin-bottom: -12px;
+    width: 10%;
+}
+
+.logoCss {
+    margin-bottom: -12px;
+    width: 7.1%;
+}
+
+.logoSql {
+    margin-bottom: -9px;
+    width: 15%;
+}
+
+.logoCsharp {
+    margin-bottom: -12px;
+    width: 9%;
+}
+
+.logoPhp {
+    margin-bottom: -6px;
+    width: 9%;
+}
+
+.logoSublimeText {
+    margin-bottom: -12px;
+    width: 9%;
+}
+
+.logoPacketTracer {
+    margin-bottom: -15px;
+    width: 15%;
+}
+
+.logoWampserver {
+    margin-bottom: -12px;
+    width: 9%;
+}
+
+.logoPhpmyadmin {
+    margin-bottom: -12.5px;
+    width: 15%;
+}
+
+.logoExcel {
+    margin-bottom: -12px;
+    margin-left: 5px;
+    width: 9%;
+}
+
+.logoVisualStudio {
+    margin-bottom: -12px;
+    width: 9%;
+}
+
+.logoWordpress {
+    margin-bottom: -12px;
+    margin-left: 5px;
+    width: 9%;
+}
+
+.logoVscode {
+    margin-bottom: -12px;
+    width: 9%;
+}
+
+.logoOvh {
+    margin-bottom: -17.5px;
+    width: 10%;
+}
+
+.module-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.md-container {
+    padding-right: 50px;
+}
+
+.select-box {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+.select-box .options-container {
+    background: #393939;
+    color: #fff;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+
+    order: 1;
+
+    position: absolute;
+    z-index: 100;
+}
+
+.selected {
+    background: #393939;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+
+    order: 0;
+}
+
+.selected::after {
+    content: "";
+    background: url("images/divers/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 8px;
+
+    transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+    margin-top: 64px;
+}
+
+.select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+    top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.select-box .option:hover {
+    background: #414b57;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    display: none;
+}
+
+.select-box .options-container a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #contact{
@@ -292,7 +494,7 @@ section:nth-child(odd) {
 
 @media (max-width: 767px){
     section{
-        min-height: 100vh;
+        min-height: 125vh;
     }
 
     .banner{
@@ -315,5 +517,31 @@ section:nth-child(odd) {
 
     #img-contact{
         margin: 30px 0px;
+    }
+
+    #PPE h1{
+        font-size: 24px;
+    }
+
+    .square{
+        width: 275px;
+        height: 400px;
+    }
+    
+    .square .sliderContent{
+        width: 275px;
+        font-size: 10px;
+    }
+
+    .square .sliderTitle h3{
+        font-size: 2rem;
+    }
+    
+    .square .sliderTitle{
+        height: 75px;
+    }
+
+    #dev h1{
+        font-size: 24px;
     }
 }
