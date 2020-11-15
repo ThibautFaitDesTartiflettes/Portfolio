@@ -546,37 +546,37 @@
                         <div class="options-container">
                             <div class="option">
                                 <input type="radio" class="radio" id="A1M1" name="category" />
-                                <label for="A1M1"><a href="ressources/CyberEdu/CyberEduA1 Module 1.pdf">Item
+                                <label for="A1M1"><a href="includes/ressources/CyberEdu/CyberEduA1 Module 1.pdf">Item
                                         A1</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A5M1" name="category" />
-                                <label for="A5M1"><a href="ressources/CyberEdu/CyberEduA5 Module 1.pdf">Item
+                                <label for="A5M1"><a href="includes/ressources/CyberEdu/CyberEduA5 Module 1.pdf">Item
                                         A5</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A6M1" name="category" />
-                                <label for="A6M1"><a href="ressources/CyberEdu/CyberEduA6 Module 1.pdf">Item
+                                <label for="A6M1"><a href="includes/ressources/CyberEdu/CyberEduA6 Module 1.pdf">Item
                                         A6</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A7M1" name="category" />
-                                <label for="A7M1"><a href="ressources/CyberEdu/CyberEduA7 Module 1.pdf">Item
+                                <label for="A7M1"><a href="includes/ressources/CyberEdu/CyberEduA7 Module 1.pdf">Item
                                         A7</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A9M1" name="category" />
-                                <label for="A9M1"><a href="ressources/CyberEdu/CyberEduA9 Module 1.pdf">Item
+                                <label for="A9M1"><a href="includes/ressources/CyberEdu/CyberEduA9 Module 1.pdf">Item
                                         A9</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A11M1" name="category" />
-                                <label for="A11M1"><a href="ressources/CyberEdu/CyberEduA11 Module 1.pdf">Item
+                                <label for="A11M1"><a href="includes/ressources/CyberEdu/CyberEduA11 Module 1.pdf">Item
                                         A11</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A13M1" name="category" />
-                                <label for="A13M1"><a href="ressources/CyberEdu/CyberEduA13 Module 1.pdf">Item
+                                <label for="A13M1"><a href="includes/ressources/CyberEdu/CyberEduA13 Module 1.pdf">Item
                                         A13</a></label>
                             </div>
                         </div>
@@ -595,12 +595,12 @@
                         <div class="options-container">
                             <div class="option">
                                 <input type="radio" class="radio" id="A6M2" name="category" />
-                                <label for="A6M2"><a href="ressources/CyberEdu/CyberEduA6 Module 2.pdf">Item
+                                <label for="A6M2"><a href="includes/ressources/CyberEdu/CyberEduA6 Module 2.pdf">Item
                                         A6</a></label>
                             </div>
                             <div class="option">
                                 <input type="radio" class="radio" id="A7M2" name="category" />
-                                <label for="A7M2"><a href="ressources/CyberEdu/CyberEduA7 Module 2.pdf">Item
+                                <label for="A7M2"><a href="includes/ressources/CyberEdu/CyberEduA7 Module 2.pdf">Item
                                         A7</a></label>
                             </div>
                         </div>
