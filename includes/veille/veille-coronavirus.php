@@ -5,30 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="includes/css/style.css">
-    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>La Chine emploie des robots afin d'essayer de traiter le coronavirus</title>
 </head>
 <body>
     <section id="pageVeille">
-        <div class="container-fluid d-flex h-100 background">
+        <div class="container-fluid d-flex h-100">
             <div class="row w-100 align-self-center">
-                <div class="col-sm-8 pres">
-                    <h1 class="text-center">
-                        <a href="">
-                            <img src="includes/img/veilleT/source/" class="float-right">
-                        </a>
-                        <a href="">
-                            <img src="includes/img/veilleT/source/" style="margin: auto 50px;">
-                        </a>
-                    </h1>
-                    <p class="mx-5 text-justify"></p>
+                <div class="col-sm-12 pres white">
+                    <h1 class="text-center">La Chine emploie des robots afin d'essayer de traiter le coronavirus</h1>
+                    <p class="mx-5 text-justify">Le coronavirus ou COVID-19 prend une importance capitale dans le monde à 
+                        l'heure actuelle. Le foyer de l'actuel phénomène mondial de santé, la Chine, met en place partout 
+                        sur son territoire des robots afin d'éviter le plus possible les contacts humains entre personnes 
+                        infectées et personnel soignant. Il à donc été mis en place des robots capables de désinfecter les 
+                        chambres des patients, aporter les repats et même, plus surprenant, de faire des prélèvements directement 
+                        sur les patients. Un de ces robots s'appelle Temi, celui-ci est capable de faire les prélèvements de 
+                        températures et apporter des repas. Ce robot est commercialisé en Chine par la société Robotemi au prix 
+                        dit "abordable" de 1999$. Récemment après une annonce de l'OMS décrivant le coronavirus comme une 
+                        "éventuelle pendémie" les médias d'Etat chinois ont annoncé le robot "THOR-1" capable de purifier 
+                        l'air ambiant. Celui-ci fait debat dans le monde de la médecine, en France Anne Crémieux, 
+                        une spécialiste des maladies infectieuses dit que désinfecter l'air extérieur est inutile 
+                        mais le gouvernement chinois le décrit comme une arme à "puissance extraordinaire".</p>
                 </div>
-                <div class="col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <img src="includes/img/veilleT/explication/">
+                <div class="row w-100 align-self-center text-center">
+                    <div class="col-sm-4 align-self-center">
+                        <a href="https://www.lci.fr/sante/video-epidemie-de-coronavirus-thor-1-le-robot-chinois-desinfectant-anti-covid-2019-2146401.html">
+                            <img src="img/source/lci.png" width="30%">
+                        </a>
                     </div>
-                    <div class="text-center">
-                        <a href="index.php#veille" class="btnD1">Revenir sur le site</a>
+                    <div class="col-sm-4 align-self-center">
+                        <a href="https://www.dezeen.com/2020/02/20/drones-robots-coronavirus-china-technology">
+                            <img src="img/source/dezeen.png" width="15%">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 align-self-center">
+                        <a href="https://www.jpost.com/HEALTH-SCIENCE/Robots-take-on-coronavirus-618551">
+                            <img src="img/source/JerusalemPost.png" width="40%" style="background: white;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row w-100 align-self-center">
+                    <div class="col-sm-6 align-self-center">
+                        <div class="text-center">
+                            <img src="img/explication/robot_coro.jpg" width="80%">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 align-self-center">
+                        <div class="text-center">
+                            <iframe src="https://www.youtube.com/embed/7YVzWgyMbl8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100 text-center">
+                    <div class="col-sm-12 align-self-center">
+                        <a href="../../index.php#veille" class="btnD1">Revenir sur le site</a>
                     </div>
                 </div>
             </div>

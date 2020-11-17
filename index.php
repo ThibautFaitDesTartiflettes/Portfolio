@@ -23,7 +23,7 @@
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-lg-auto">
+            <ul class="navbar-nav ml-sm-auto">
                 <li class="nav-item active">
                 <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                 </li>
@@ -57,7 +57,7 @@
 </header>
 <section class="banner">
     <div class="container">
-        <div class="row">
+        <div class="row w-100">
             <div class="col-sm-6">
                 <h2 id="typed"></h2>
                 <p>Une tasse de café &#9749; ? Un petit gâteau 🍰 ? Alors vous êtes prêt pour la visite, choisissez donc une option dans le menu ci-dessus, sur le bouton en dessous ou scrollez ! <br><strong>Bonne visite !</strong></p>
@@ -68,7 +68,7 @@
 </section>
 <section id="profil" data-text="Section 1">
     <div class="container-fluid d-flex h-100 background">
-        <div class="row align-self-center">
+        <div class="row w-100 align-self-center">
             <div class="col-sm-8 pres">
                 <h1 class="text-center">Qui suis-je ?</h1>
                 <p class="mx-5 text-justify">Moi c'est Thibaut Meslin ! J'ai 19 ans et je suis étudiant en 2ème année du BTS SIO du lycée saint Adjutor à Vernon.</p>
@@ -614,7 +614,7 @@
 </section>
 <section id="veille" data-text="Section 6">
     <div class="container-fluid d-flex flex-column h-100 align-items-center justify-content-center background2">
-        <div class="row align-self-center">
+        <div class="row w-100 align-self-center">
             <div class="col-sm-8 pres">
                 <h1 class="text-center">Veille sur la robotique
                     <label class="toggle-label float-right">
@@ -641,7 +641,7 @@
             </div>
             <div class="col-sm-4 align-self-center">
                 <div class="text-center">
-                    <img src="includes/img/robotique.jpg" width="60%">
+                    <img src="includes/img/robotique.jpg" id="veilleImg">
                 </div>
             </div>
         </div>
@@ -816,7 +816,7 @@
         <h1 class="title">Contactez moi !</h1>
         <form method="POST" action="">
             <div class="container">
-                <div class="contact-form row">
+                <div class="contact-form row w-100">
                     <div class="form-field col-lg-6">
                         <input type="text" id="name" class="input-text" name="personne" value="<?php if(isset($_POST['personne'])) {echo $_POST['personne'];} ?>" required>
                         <label for="name" class="label">Qui êtes-vous ? *</label>

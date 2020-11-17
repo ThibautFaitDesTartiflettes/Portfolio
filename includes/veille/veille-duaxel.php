@@ -5,30 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="includes/css/style.css">
-    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DuAxel, Le nouveau rover de la NASA</title>
 </head>
 <body>
     <section id="pageVeille">
-        <div class="container-fluid d-flex h-100 background">
+        <div class="container-fluid d-flex h-100">
             <div class="row w-100 align-self-center">
-                <div class="col-sm-8 pres">
-                    <h1 class="text-center">
-                        <a href="">
-                            <img src="includes/img/veilleT/source/" class="float-right">
-                        </a>
-                        <a href="">
-                            <img src="includes/img/veilleT/source/" style="margin: auto 50px;">
-                        </a>
-                    </h1>
-                    <p class="mx-5 text-justify"></p>
+                <div class="col-sm-12 pres white">
+                    <h1 class="text-center">DuAxel, Le nouveau rover de la NASA</h1>
+                    <p class="mx-5 text-justify">La NASA a présenté dans sa revue Jet Propulsion laboratory 
+                        un nouveau rover afin d'explorer toujours plus loin l'espace. En effet, à première vue 
+                        ce robot ressemble à tous les rovers à 4 roues déjà présent mais il n'en est rien. Grâce 
+                        à un module avant détachable et autonome le robot peut se servir de cette partie avant comme 
+                        d'un "grappin" afin d'escalader des pentes abruptes et donc explorer un environnement plus 
+                        large et difficilement praticable. Équipé de différents capteurs et antennes pour analyser, 
+                        prélever ou conserver des échantillons qui seront analysés plus tard. Ces équipements lui 
+                        permettent aussi de transmettre des rapports, photos ou relevés à la NASA qui pourra les approfondirs.</p>
                 </div>
-                <div class="col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <img src="includes/img/veilleT/explication/">
+                <div class="row w-100 align-self-center text-center">
+                    <div class="col-sm-6 align-self-center">
+                        <a href="https://www.futura-sciences.com/sciences/actualites/espace-robot-extraordinaire-pret-explorer-pentes-plus-raides-systeme-solaire-preuve-images-83619/">
+                            <img src="img/source/Futura-logo.jpg" width="30%">
+                        </a>
                     </div>
-                    <div class="text-center">
-                        <a href="index.php#veille" class="btnD1">Revenir sur le site</a>
+                    <div class="col-sm-6 align-self-center">
+                        <a href="https://www.jpl.nasa.gov/news/news.php?feature=7762">
+                            <img src="img/source/jpl.png" width="40%" style="background: white;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row w-100 align-self-center">
+                    <div class="col-sm-6 align-self-center">
+                        <div class="text-center">
+                            <img src="img/explication/duaxel2.jpg" width="80%">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 align-self-center">
+                        <div class="text-center">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ylO-OgRpobo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100 text-center">
+                    <div class="col-sm-12 align-self-center">
+                        <a href="../../index.php#veille" class="btnD1">Revenir sur le site</a>
                     </div>
                 </div>
             </div>

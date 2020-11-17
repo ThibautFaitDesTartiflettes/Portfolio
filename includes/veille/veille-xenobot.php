@@ -23,12 +23,12 @@
                 <div class="row w-100 align-self-center text-center">
                     <div class="col-sm-6 align-self-center">
                         <a href="https://www.uvm.edu/uvmnews/news/team-builds-first-living-robots">
-                            <img src="img/source/uvm.png" width="20%">
+                            <img src="img/source/uvm.png" width="30%">
                         </a>
                     </div>
                     <div class="col-sm-6 align-self-center">
                         <a href="https://edition.cnn.com/2020/01/13/us/living-robot-stem-cells-intl-hnk-scli-scn/index.html">
-                            <img src="img/source/cnn.png" width="10%">
+                            <img src="img/source/cnn.png" width="15%">
                         </a>
                     </div>
                 </div>
