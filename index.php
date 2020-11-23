@@ -61,7 +61,7 @@
             <div class="col-sm-6">
                 <h2 id="typed"></h2>
                 <p>Une tasse de café &#9749; ? Un petit gâteau 🍰 ? Alors vous êtes prêt pour la visite, choisissez donc une option dans le menu ci-dessus, sur le bouton en dessous ou scrollez ! <br><strong>Bonne visite !</strong></p>
-                <a href="#" class="btnD1" onclick="RandLien()">M'emmener quelque part</a>
+                <a href="#profil" class="btnD1">Voir mon profil</a>
             </div>
         </div>
     </div>
@@ -96,6 +96,26 @@
             <div class="col-sm-12 align-self-center">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>Normandie Presse</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Installer, utiliser un outil de gestion de dépendance dans un cadre d'entreprise.</p>
+                                    <p>Langage(s) utilisé(s) : Aucun</p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://ocsinventory-ng.org/?lang=fr"><img src="includes/img/logiciels/ocsinventory.png"
+                                                    class="logoSql"></a>
+                                            <a href="https://glpi-project.org/fr/"><img src="includes/img/logiciels/glpi.png"
+                                                    class="logoPhpmyadmin"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/Normandie Presse.pdf" class="bouton">Télécharger le projet</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="swiper-slide">
                             <div class="square">
                                 <div class="sliderTitle">
@@ -241,10 +261,10 @@
                                                     class="logoPhpmyadmin"></a>
                                         </span>
                                     </p>
-                                    <a href="includes/ressources/PPE/PPE_CMS.zip" class="bouton">Télécharger le projet</a>
-                                    <a href="includes/ressources/PPE/PPE_CMS/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                    <a href="includes/ressources/PPE/PPE_Impress.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_Impress/fiche_situation_meslin.pdf" class="bouton">Fiche de
                                         situation</a>
-                                    <a href="includes/ressources/PPE/PPE_CMS/validation_competences_meslin.pdf" class="bouton">Validation
+                                    <a href="includes/ressources/PPE/PPE_Impress/validation_competences_meslin.pdf" class="bouton">Validation
                                         de compétences</a>
                                 </div>
                             </div>
