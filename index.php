@@ -843,7 +843,7 @@
                 <html>
                     <body>
                         <div align="center">
-                            <img src="http://thibaut.meslin.bts.free.fr/Portfolio/includes/img/banniere_mail.gif">
+                            <img src="http://thibaut.meslin.bts.free.fr/includes/img/banniere_mail.gif">
                             <br />
                             <u>Nom de l\'expéditeur :</u>'.$_POST['personne'].'<br />
                             Mail de l\'expéditeur :'.$_POST['mail'].'<br />
@@ -867,7 +867,7 @@
     ?>
     <div class="contactUs align-self-center">
         <h1 class="title">Contactez moi !</h1>
-        <form method="POST" action="">
+        <form method="POST" action="index.php#contact">
             <div class="container">
                 <div class="contact-form row w-100">
                     <div class="form-field col-lg-6">
@@ -909,18 +909,10 @@
 </section>
 <script>
     $(window).on("load",function(){
-        $(".loader-wrapper").hide();
-        $('html').css("overflow-y", "scroll");
+        $(".loader").hide();
+        $('html').css("overflow-y", "visible");
     });
 </script>
-<div class= "loader-wrapper">
-    <svg width="200" height="200" viewBox="0 0 100 100">
-        <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
-        <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
-        <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
-        <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
-    </svg>
-</div>
     <!-- Optional JavaScript -->
     <!-- Typed JS -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
