@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/be8b49b8eb.js"></script>
+    <script  src="https://code.jquery.com/jquery-2.1.0.js"  integrity="sha256-D6d1KSapXjq2tfZ6Ie9AYozkRHyB3fT2ys9mO2+4Wvc="  crossorigin="anonymous"></script>
     <title>Portfolio - Thibaut Meslin</title>
 </head>
 <body>
@@ -96,6 +97,38 @@
             <div class="col-sm-12 align-self-center">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="square">
+                                <div class="sliderTitle">
+                                    <h3>gesAMM</h3>
+                                </div>
+                                <div class="sliderContent">
+                                    <p>Réaliser une application qui permet à la société GSB de gérer les étapes de validations d'un médicament en vue de sa mise sur le marché</p>
+                                    <p>Langage(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/"><img
+                                                    src="includes/img/langages/Csharp.png" class="logoCsharp"></a>
+                                            <a href="https://sql.sh/"><img src="includes/img/langages/sql.jpg" class="logoSql"></a>
+                                        </span>
+                                    </p>
+                                    <p>Logiciel(s) utilisé(s) :
+                                        <span class="dev-lg">
+                                            <a href="https://visualstudio.microsoft.com/fr/"><img
+                                                    src="includes/img/logiciels/visual_studio.png" class="logoVisualStudio"></a>
+                                            <a href="https://www.microsoft.com/fr-fr/sql-server/sql-server-2019"><img
+                                                    src="includes/img/logiciels/sqlServer.png" class="logoVisualStudio"></a>
+                                            <a href="https://desktop.github.com/"><img
+                                            src="includes/img/langages/github.png" class="logoHtml"></a>
+                                        </span>
+                                    </p>
+                                    <a href="includes/ressources/PPE/PPE_gesAMM.zip" class="bouton">Télécharger le projet</a>
+                                    <a href="includes/ressources/PPE/PPE_gesAMM/fiche_situation_meslin.pdf" class="bouton">Fiche de
+                                        situation</a>
+                                    <a href="includes/ressources/PPE/PPE_gesAMM/validation_competences_meslin.pdf"
+                                        class="bouton">Validation de compétences</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="swiper-slide">
                             <div class="square">
                                 <div class="sliderTitle">
@@ -874,6 +907,20 @@
         </form>
     </div>
 </section>
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").hide();
+        $('html').css("overflow-y", "scroll");
+    });
+</script>
+<div class= "loader-wrapper">
+    <svg width="200" height="200" viewBox="0 0 100 100">
+        <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
+        <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
+        <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
+        <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
+    </svg>
+</div>
     <!-- Optional JavaScript -->
     <!-- Typed JS -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
