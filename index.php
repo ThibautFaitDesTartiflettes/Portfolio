@@ -457,15 +457,14 @@
 <section id="stages" data-text="Section 3">
     <div class="container-fluid d-flex h-100 background">
         <div class="row align-self-center">
-            <div class="col-sm-8 pres">
+            <div class="col-sm-7 pres">
                 <h1 class="text-center">Stages</h1>
-                <p class="mx-5 text-justify">Je suis actuellement en recherche de stages pour mon BTS, j'en effectuerai un en Janvier pour 8 semaines. Je recherche un stage dans le domaine du développement et donc en lien avec mon option SLAM, je dois pour celui-ci être intégré à une équipe et développer ce qu'il me sera donner de développer afin de construire un rapport de stage qui sera présenté lors d'un oral pour l'obtention du diplôme.</p>
-                <a href="#CV" class="btnD1" style="margin-left: 50px;">Voir mon CV</a>
-                <a href="#contact" class="btnD1">Me contacter</a>
+                <p class="mx-5 text-justify">J'ai effectué mon stage de seconde année de BTS chez Schneider Electric à Rueil-Malmaison. Lors de ce stage de 6 semaines, j'ai été intégré au sein d'un équipe de 2 développeurs et d'un chef de projet, j'ai travaillé sur le projet SunTracking. Mon rôle a été de développeur une fonctionnalité de l'application existante consitant à retracer l'historique de recommandation envoyé par le service SunTracking. Lors de ce projet, je me suis familiarisé avec les méthodes AGILES ainsi que différents langages tels que le C# et le JSON.</p>
+                <a href="includes/ressources/Stage/Rapport de stage.pdf" class="btnD1" style="margin-left: 50px;">Consulter mon rapport de stage</a>
             </div>
-            <div class="col-sm-4 align-self-center">
+            <div class="col-sm-5 align-self-center">
                 <div class="text-center">
-                    <img src="includes/img/loupe_stage.png" width="80%" id="img-contact">
+                    <img src="includes/img/SE_Hive.jpg" width="100%" id="img-contact">
                 </div>
             </div>
         </div>
