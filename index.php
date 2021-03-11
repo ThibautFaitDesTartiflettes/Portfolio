@@ -459,7 +459,7 @@
         <div class="row align-self-center">
             <div class="col-sm-7 pres">
                 <h1 class="text-center">Stages</h1>
-                <p class="mx-5 text-justify">J'ai effectué mon stage de seconde année de BTS chez Schneider Electric à Rueil-Malmaison. Lors de ce stage de 6 semaines, j'ai été intégré au sein d'un équipe de 2 développeurs et d'un chef de projet, j'ai travaillé sur le projet SunTracking. Mon rôle a été de développeur une fonctionnalité de l'application existante consitant à retracer l'historique de recommandation envoyé par le service SunTracking. Lors de ce projet, je me suis familiarisé avec les méthodes AGILES ainsi que différents langages tels que le C# et le JSON.</p>
+                <p class="mx-5 text-justify">J'ai effectué mon stage de seconde année de BTS chez Schneider Electric à Rueil-Malmaison. Lors de ce stage de 6 semaines, j'ai été intégré au sein d'une équipe de 2 développeurs et d'un chef de projet, j'ai travaillé sur le projet SunTracking. Mon rôle a été de développeur une fonctionnalité de l'application existante consistant à retracer l'historique de recommandation envoyé par le service SunTracking. Lors de ce projet, je me suis familiarisé avec les méthodes AGILES ainsi que différents langages tels que le C# et le JSON.</p>
                 <a href="includes/Stage/Rapport de stage.pdf" class="btnD1" style="margin-left: 50px;">Consulter mon rapport de stage</a>
             </div>
             <div class="col-sm-5 align-self-center">
