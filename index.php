@@ -705,6 +705,19 @@
                             <div class="swiper-slide">
                                 <div class="square text-center">
                                     <div class="sliderTitle">
+                                        <h3>Cyro, robot pieuvre</h3>
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>Date : 19/03/2021</p>
+                                        <img src="includes/veille/img/accueil/cyro.jpg" width="75%">
+                                        <p>Cyro, un robot méduse est prêt à explorer les océans dans les moindres recoins.</p>
+                                        <a href="includes/veille/veille-cyro.php" class="bouton">Voir la veille</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="square text-center">
+                                    <div class="sliderTitle">
                                         <h3>L'espace</h3>
                                     </div>
                                     <div class="sliderContent">
