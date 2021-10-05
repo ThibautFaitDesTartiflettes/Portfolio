@@ -14,6 +14,10 @@ body::-webkit-scrollbar-thumb {
     background: #D52222;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     position: absolute;
     z-index: 10;
