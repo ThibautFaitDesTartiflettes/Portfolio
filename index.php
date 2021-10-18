@@ -815,13 +815,18 @@
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%"><label id="black">15% - JavaScript</label></div>
                 </div>
             </div>
-            <div class="col-sm-6 align-self-center">
+            <div class="col-sm-6 align-self-center mt-5">
                 <h3>Mon parcours</h3>
                 <ul class="timeline">
                     <li>
-                        <a target="_blank" href="https://www.stadjutor.com/affich_unite.php?numUnite=5">BTS SIO - Saint Adjutor - VERNON</a>
-                        <span class="float-right">2019 - 2021 (En cours)</span>
-                        <p>Etude en cours, actuellement en 2ème année, option SLAM.</p>
+                        <a target="_blank" href="https://www.stadjutor.com/affich_unite.php?numUnite=5">CESI Ecole d'ingénieur - ROUEN</a>
+                        <span class="float-right">2021 - 2024 (En cours)</span>
+                        <p>Etude en cours, actuellement en 3ème année.</p>
+                    </li>
+                    <li>
+                        <a href="https://www.stadjutor.com/affich_unite.php?numUnite=5">BTS SIO - Saint Adjutor - VERNON</a>
+                        <span class="float-right">2019 - 2021</span>
+                        <p>BTS SIO obtenu avec 16.5 de moyenne.</p>
                     </li>
                     <li>
                         <a href="http://dumezil-lyc.spip.ac-rouen.fr/">Lycée Georges Dumézil - Section S SI option ISN - VERNON</a>
